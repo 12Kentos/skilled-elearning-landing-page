@@ -1,0 +1,222 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif; }
+
+.header__paragraph {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  color: #83869a; }
+
+.heading-primary {
+  font-size: 5.6rem;
+  font-weight: 800;
+  line-height: 7.56rem;
+  color: #13183f; }
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #fff; }
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 3.2rem;
+  color: #13183f; }
+
+.card--pink__paragraph {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 4rem;
+  color: #fff; }
+
+.card__paragraph {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  color: #83869a; }
+
+.card__link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #f74780; }
+
+.u-margin-left-medium {
+  margin-left: 3.2rem; }
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  border-radius: 50rem;
+  background-color: #13183f;
+  color: #fff; }
+
+.btn:hover {
+  opacity: 0.5; }
+
+.btn--pink {
+  background-image: linear-gradient(to bottom, #ff6f48, #f02aa6); }
+
+.btn--purple {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #4851ff, #f02aa6); }
+
+.footer__menu-btn {
+  border-radius: 50rem;
+  background-color: #fff; }
+
+.section-cards {
+  max-width: 111rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 5.6rem;
+  margin-bottom: 14rem; }
+
+.card {
+  max-width: 35rem;
+  height: 32.2rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 5rem 5rem rgba(102, 108, 163, 0.05); }
+  .card--pink {
+    background-image: linear-gradient(to bottom, #ff6f48, #f02aa6); }
+    .card--pink__paragraph {
+      max-width: 28.6rem;
+      margin-top: 6.4rem; }
+  .card__icon {
+    max-width: 5.6rem;
+    transform: translateX(50%) translateY(-50%); }
+  .card__paragraph {
+    max-width: 28.6rem; }
+  .card__link:hover {
+    opacity: 0.5; }
+
+.heading-tertiary,
+.card__paragraph {
+  margin-bottom: 2.4rem; }
+
+.footer-container {
+  width: 100%;
+  background-color: #13183f;
+  display: flex;
+  justify-content: center; }
+
+.footer {
+  width: 111rem; }
+
+.footer-menu {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+body {
+  background-image: linear-gradient(#fff, #f4f5fd);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container {
+  max-width: 111rem; }
+
+.header {
+  max-height: 83.7rem; }
+  .header-main {
+    display: flex;
+    justify-content: space-between; }
+  .header__main-img-container {
+    transform: translateY(-45%);
+    min-width: 100%;
+    margin-left: 6rem; }
+  .header__main-img {
+    max-width: 100%; }
+  .header__text-box {
+    min-width: 45%; }
+  .header__paragraph {
+    max-width: 44.5rem;
+    margin-bottom: 4rem; }
+
+.heading-primary {
+  margin-bottom: 2.9rem; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.875rem;
+  margin-bottom: 18.5rem; }
+
+@media (max-width: 1230px) {
+  html {
+    font-size: 50%; } }
+
+@media (max-width: 850px) {
+  html {
+    font-size: 62.5%; }
+  .header {
+    max-height: 60.7rem;
+    margin-left: 4rem; }
+    .header__main-img-container {
+      transform: translateY(-40%);
+      margin-left: 5rem; }
+    .header__paragraph {
+      font-size: 1.6rem;
+      line-height: 2.6rem; }
+    .header__text-box {
+      min-width: 40rem; }
+  .section-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    justify-items: center; }
+  .menu {
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 10rem; }
+  .heading-primary {
+    font-size: 4rem;
+    line-height: 5.04rem; }
+  .card {
+    width: 34rem; }
+  .footer {
+    margin-left: 4rem;
+    margin-right: 4rem; } }
+
+@media (max-width: 650px) {
+  .header {
+    min-height: 105rem; }
+    .header-main {
+      flex-direction: column;
+      align-items: center; }
+    .header__text-box {
+      max-width: 35rem;
+      margin-bottom: 25rem; }
+    .header__main-img-container {
+      min-width: 37.5rem; }
+  .menu {
+    max-width: 37.5rem;
+    margin: 3rem auto; }
+  .section-cards {
+    grid-template-columns: 1fr;
+    column-gap: 1.6rem; } }

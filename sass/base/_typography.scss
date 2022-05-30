@@ -1,0 +1,61 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.header {
+  &__paragraph {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: $color-primary-gray;
+  }
+}
+
+.heading-primary {
+  font-size: 5.6rem;
+  font-weight: 800;
+  line-height: 7.56rem;
+  color: $color-primary;
+}
+
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #fff;
+  }
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 3.2rem;
+  color: $color-primary;
+}
+
+.card {
+  &--pink__paragraph {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 4rem;
+    color: $color-white;
+  }
+
+  &__paragraph {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: $color-primary-gray;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: $color-secondary;
+  }
+}

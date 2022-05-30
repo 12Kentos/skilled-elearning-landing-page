@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="menu">
+          <div class="header__logo-box">
+            <img
+              class="header__logo"
+              src="assets/logo-dark.svg"
+              alt="Skilled"
+            />
+          </div>
+          <div class="header__menu-button">
+            <a href="#" class="btn">Get Started</a>
+          </div>
+        </div>
+        <div class="header-main">
+          <div class="header__text-box">
+            <h1 class="heading-primary">Maximize skill, minimize budget</h1>
+            <p class="header__paragraph">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <a href="#" class="btn btn--pink">Get Started</a>
+          </div>
+          <div class="header__main-img-container">
+            <picture>
+              <source
+                media="(max-width: 650px)"
+                srcset="
+                  assets/image-hero-mobile.webp    435w,
+                  assets/image-hero-mobile.png     435w,
+                  assets/image-hero-mobile@2x.webp 870w,
+                  assets/image-hero-mobile@2x.png  870w
+                "
+              />
+              <source
+                media="(max-width: 850px)"
+                srcset="
+                  assets/image-hero-tablet.webp     695w,
+                  assets/image-hero-tablet.png      695w,
+                  assets/image-hero-tablet@2x.webp 1390w,
+                  assets/image-hero-tablet@2x.png  1390w
+                "
+                sizes="75vw"
+              />
+              <source
+                srcset="
+                  assets/image-hero-desktop.webp    1046w,
+                  assets/image-hero-desktop.png     1046w,
+                  assets/image-hero-desktop@2x.webp 2092w,
+                  assets/image-hero-desktop@2x.png  2092w
+                "
+                sizes="75vw"
+              />
+              <img
+                class="header__main-img"
+                src="assets/image-hero-desktop.png"
+                alt="Girl sitting at computer"
+              />
+            </picture>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section-cards">
+          <div class="card card--pink">
+            <p class="card--pink__paragraph u-margin-left-medium">
+              Check out our most popular courses!
+            </p>
+          </div>
+          <div class="card card--info">
+            <img
+              src="assets/icon-animation.svg"
+              class="card__icon"
+              alt="man running icon"
+            />
+            <h3 class="heading-tertiary u-margin-left-medium">Animation</h3>
+            <p class="card__paragraph u-margin-left-medium">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience. Get Started
+            </p>
+            <a href="#" class="card__link u-margin-left-medium">Get Started</a>
+          </div>
+          <div class="card card--info">
+            <img
+              src="assets/icon-design.svg"
+              class="card__icon"
+              alt="clip-art icon"
+            />
+            <h3 class="heading-tertiary u-margin-left-medium">Design</h3>
+            <p class="card__paragraph u-margin-left-medium">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks. Get Started
+            </p>
+            <a href="#" class="card__link u-margin-left-medium">Get Started</a>
+          </div>
+          <div class="card card--info">
+            <img
+              src="assets/icon-photography.svg"
+              class="card__icon"
+              alt="camera icon"
+            />
+            <h3 class="heading-tertiary u-margin-left-medium">Photography</h3>
+            <p class="card__paragraph u-margin-left-medium">
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos. Get Started
+            </p>
+            <a href="#" class="card__link u-margin-left-medium">Get Started</a>
+          </div>
+          <div class="card card--info">
+            <img
+              src="assets/icon-crypto.svg"
+              class="card__icon"
+              alt="dots icon"
+            />
+            <h3 class="heading-tertiary u-margin-left-medium">Crypto</h3>
+            <p class="card__paragraph u-margin-left-medium">
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course. Get Started
+            </p>
+            <a href="#" class="card__link u-margin-left-medium">Get Started</a>
+          </div>
+          <div class="card card--info">
+            <img
+              src="assets/icon-business.svg"
+              class="card__icon"
+              alt="breif case icon"
+            />
+            <h3 class="heading-tertiary u-margin-left-medium">Business</h3>
+            <p class="card__paragraph u-margin-left-medium">
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment. Get Started
+            </p>
+            <a href="#" class="card__link u-margin-left-medium">Get Started</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="footer-container">
+      <footer class="footer">
+        <div class="footer-menu">
+          <div class="header__logo-box">
+            <img
+              class="header__logo"
+              src="assets/logo-light.svg"
+              alt="Skilled"
+            />
+          </div>
+          <div class="footer__menu-btn">
+            <a href="#" class="btn btn--purple">Get Started</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Get Started 
+
+-->

@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(#fff, #f4f5fd);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 111rem;
+}
+
+.header {
+  max-height: 83.7rem;
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__main-img-container {
+    transform: translateY(-45%);
+    min-width: 100%;
+    margin-left: 6rem;
+  }
+
+  &__main-img {
+    max-width: 100%;
+  }
+
+  &__text-box {
+    min-width: 45%;
+  }
+
+  &__paragraph {
+    max-width: 44.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.heading-primary {
+  margin-bottom: 2.9rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.875rem;
+  margin-bottom: 18.5rem;
+}

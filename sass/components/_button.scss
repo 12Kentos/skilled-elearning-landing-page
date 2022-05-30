@@ -1,0 +1,38 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.4rem 3.2rem;
+    border-radius: 50rem;
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--pink {
+    background-image: linear-gradient(
+      to bottom,
+      $color-gradient-primary-top,
+      $color-gradient--bottom
+    );
+  }
+
+  &--purple {
+    background-color: $color-white;
+    background-image: linear-gradient(
+      to bottom,
+      $color-gradient-secondary-top,
+      $color-gradient--bottom
+    );
+  }
+}
+
+.footer {
+  &__menu-btn {
+    border-radius: 50rem;
+    background-color: $color-white;
+  }
+}

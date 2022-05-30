@@ -1,0 +1,48 @@
+.section-cards {
+  max-width: 111rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 5.6rem;
+  margin-bottom: 14rem;
+}
+
+.card {
+  max-width: 35rem;
+  height: 32.2rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 5rem 5rem rgba(#666ca3, 0.05);
+
+  &--pink {
+    background-image: linear-gradient(
+      to bottom,
+      $color-gradient-primary-top,
+      $color-gradient--bottom
+    );
+
+    &__paragraph {
+      max-width: 28.6rem;
+      margin-top: 6.4rem;
+    }
+  }
+
+  &__icon {
+    max-width: 5.6rem;
+    transform: translateX(50%) translateY(-50%);
+  }
+
+  &__paragraph {
+    max-width: 28.6rem;
+  }
+
+  &__link:hover {
+    opacity: 0.5;
+  }
+}
+
+.heading-tertiary,
+.card__paragraph {
+  margin-bottom: 2.4rem;
+}

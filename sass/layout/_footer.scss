@@ -1,0 +1,17 @@
+.footer-container {
+  width: 100%;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 111rem;
+}
+
+.footer-menu {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
